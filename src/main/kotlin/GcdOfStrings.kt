@@ -14,6 +14,7 @@ class GcdOfStrings {
             }else{
                 l2-=l1
             }
+            println("Value of L1 is $l1")
         }
         return str1.substring(0,l1)
     }
@@ -21,5 +22,5 @@ class GcdOfStrings {
 
 fun main() {
     val gcd = GcdOfStrings()
-    println( gcd.gcdOfStrings("ABABAB","ABAB"))
+    println( gcd.gcdOfStrings("ABABAB","ABABABABAB"))
 }
